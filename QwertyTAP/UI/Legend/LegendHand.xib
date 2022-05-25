@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LegendHand" customModule="QwertyTAP" customModuleProvider="target">
+            <connections>
+                <outlet property="fingersContainerView" destination="mI7-S7-uw4" id="2hG-Iy-T0o"/>
+                <outlet property="handImageView" destination="EVw-cz-SoZ" id="rJS-MD-MUP"/>
+                <outlet property="textLabel" destination="iRL-fU-Qhd" id="iG6-VK-1SW"/>
+                <outletCollection property="fingers" destination="lcP-JX-qiS" collectionClass="NSMutableArray" id="lt3-r4-XAe"/>
+                <outletCollection property="fingers" destination="cQJ-bA-5AN" collectionClass="NSMutableArray" id="xKn-dU-bzK"/>
+                <outletCollection property="fingers" destination="BeZ-kI-9Ha" collectionClass="NSMutableArray" id="YVb-jx-7pY"/>
+                <outletCollection property="fingers" destination="HuC-PM-zJP" collectionClass="NSMutableArray" id="MEx-Ci-3Q5"/>
+                <outletCollection property="fingers" destination="Wlh-PU-sxL" collectionClass="NSMutableArray" id="60l-EQ-WNM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="righthand" translatesAutoresizingMaskIntoConstraints="NO" id="EVw-cz-SoZ">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="0.84552841886467889" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT WORD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRL-fU-Qhd">
+                    <rect key="frame" x="2.5" y="57" width="75.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" red="0.16862745100000001" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mI7-S7-uw4" userLabel="Fingers">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcP-JX-qiS" userLabel="Thumb" customClass="LegendHandCircleView" customModule="QwertyTAP" customModuleProvider="target">
+                            <rect key="frame" x="3" y="31" width="10" height="10"/>
+                            <color key="backgroundColor" red="0.16862745100000001" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="lcP-JX-qiS" secondAttribute="height" multiplier="1:1" id="OkX-Zf-rom"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQJ-bA-5AN" userLabel="Index" customClass="LegendHandCircleView" customModule="QwertyTAP" customModuleProvider="target">
+                            <rect key="frame" x="21" y="3" width="10" height="10"/>
+                            <color key="backgroundColor" red="0.16862745100000001" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cQJ-bA-5AN" secondAttribute="height" multiplier="1:1" id="tV9-n0-4ju"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BeZ-kI-9Ha" userLabel="Middle" customClass="LegendHandCircleView" customModule="QwertyTAP" customModuleProvider="target">
+                            <rect key="frame" x="39" y="1" width="10" height="10"/>
+                            <color key="backgroundColor" red="0.16862745100000001" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HuC-PM-zJP" userLabel="Ring" customClass="LegendHandCircleView" customModule="QwertyTAP" customModuleProvider="target">
+                            <rect key="frame" x="53" y="7" width="10" height="10"/>
+                            <color key="backgroundColor" red="0.16862745100000001" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wlh-PU-sxL" userLabel="Pinky" customClass="LegendHandCircleView" customModule="QwertyTAP" customModuleProvider="target">
+                            <rect key="frame" x="65" y="19" width="10" height="10"/>
+                            <color key="backgroundColor" red="0.16862745100000001" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="BeZ-kI-9Ha" firstAttribute="centerY" secondItem="mI7-S7-uw4" secondAttribute="centerY" multiplier="0.15" id="03b-in-Q2n"/>
+                        <constraint firstItem="HuC-PM-zJP" firstAttribute="width" secondItem="HuC-PM-zJP" secondAttribute="height" multiplier="1:1" id="658-ZO-vS4"/>
+                        <constraint firstItem="Wlh-PU-sxL" firstAttribute="width" secondItem="Wlh-PU-sxL" secondAttribute="height" multiplier="1:1" id="AXW-jY-jes"/>
+                        <constraint firstItem="cQJ-bA-5AN" firstAttribute="centerX" secondItem="mI7-S7-uw4" secondAttribute="centerX" multiplier="0.65" id="Aik-fY-iq4"/>
+                        <constraint firstItem="HuC-PM-zJP" firstAttribute="centerX" secondItem="mI7-S7-uw4" secondAttribute="centerX" multiplier="1.45" id="Fre-9n-rNd"/>
+                        <constraint firstItem="cQJ-bA-5AN" firstAttribute="centerY" secondItem="mI7-S7-uw4" secondAttribute="centerY" multiplier="0.2" id="GHF-nL-xdq"/>
+                        <constraint firstItem="BeZ-kI-9Ha" firstAttribute="width" secondItem="BeZ-kI-9Ha" secondAttribute="height" multiplier="1:1" id="JTN-9w-yEg"/>
+                        <constraint firstItem="lcP-JX-qiS" firstAttribute="centerY" secondItem="mI7-S7-uw4" secondAttribute="centerY" multiplier="0.9" id="LCd-GE-mzj"/>
+                        <constraint firstItem="lcP-JX-qiS" firstAttribute="centerX" secondItem="mI7-S7-uw4" secondAttribute="centerX" multiplier="0.2" id="Mha-ZW-rVA"/>
+                        <constraint firstItem="Wlh-PU-sxL" firstAttribute="width" secondItem="lcP-JX-qiS" secondAttribute="width" id="UR0-hj-H5V"/>
+                        <constraint firstItem="lcP-JX-qiS" firstAttribute="width" secondItem="mI7-S7-uw4" secondAttribute="width" multiplier="0.13" id="XJH-k4-0z0"/>
+                        <constraint firstItem="BeZ-kI-9Ha" firstAttribute="centerX" secondItem="mI7-S7-uw4" secondAttribute="centerX" multiplier="1.1" id="iYr-IW-q57"/>
+                        <constraint firstItem="HuC-PM-zJP" firstAttribute="width" secondItem="lcP-JX-qiS" secondAttribute="width" id="ihG-zL-QAv"/>
+                        <constraint firstItem="cQJ-bA-5AN" firstAttribute="width" secondItem="lcP-JX-qiS" secondAttribute="width" id="jII-Do-jC9"/>
+                        <constraint firstItem="Wlh-PU-sxL" firstAttribute="centerY" secondItem="mI7-S7-uw4" secondAttribute="centerY" multiplier="0.6" id="lMM-yI-9x0"/>
+                        <constraint firstItem="Wlh-PU-sxL" firstAttribute="centerX" secondItem="mI7-S7-uw4" secondAttribute="centerX" multiplier="1.75" id="rY1-iF-zoi"/>
+                        <constraint firstItem="BeZ-kI-9Ha" firstAttribute="width" secondItem="lcP-JX-qiS" secondAttribute="width" id="sWl-fN-NfF"/>
+                        <constraint firstItem="HuC-PM-zJP" firstAttribute="centerY" secondItem="mI7-S7-uw4" secondAttribute="centerY" multiplier="0.3" id="vku-YR-TNw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mI7-S7-uw4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2e9-vu-3qa"/>
+                <constraint firstItem="EVw-cz-SoZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AY8-Yo-2Ro"/>
+                <constraint firstItem="mI7-S7-uw4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PyA-iF-8hR"/>
+                <constraint firstAttribute="bottom" secondItem="EVw-cz-SoZ" secondAttribute="bottom" id="Qaj-AP-2cn"/>
+                <constraint firstItem="iRL-fU-Qhd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Qcf-oz-dHt"/>
+                <constraint firstAttribute="trailing" secondItem="EVw-cz-SoZ" secondAttribute="trailing" id="S8h-Sc-mZq"/>
+                <constraint firstAttribute="bottom" secondItem="mI7-S7-uw4" secondAttribute="bottom" id="deE-nf-aOc"/>
+                <constraint firstItem="EVw-cz-SoZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gg6-Fd-T8C"/>
+                <constraint firstItem="iRL-fU-Qhd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.6" id="krq-Al-qIS"/>
+                <constraint firstAttribute="trailing" secondItem="mI7-S7-uw4" secondAttribute="trailing" id="wKZ-dN-xEy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-85.507246376811594" y="85.044642857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="righthand" width="720" height="720"/>
+    </resources>
+</document>

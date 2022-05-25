@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5328EED2267F6350003BE967 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5328EED1267F6350003BE967 /* DropDown.swift */; };
+		5328EED5267F795D003BE967 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5328EED4267F795D003BE967 /* Circle.swift */; };
+		538E49062679FF92001D70E1 /* IndexAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E49052679FF92001D70E1 /* IndexAutocomplete.swift */; };
+		5391A0C626564ACF008D9647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0C526564ACF008D9647 /* AppDelegate.swift */; };
+		5391A0C826564ACF008D9647 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0C726564ACF008D9647 /* SceneDelegate.swift */; };
+		5391A0CA26564ACF008D9647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0C926564ACF008D9647 /* ViewController.swift */; };
+		5391A0CD26564ACF008D9647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391A0CB26564ACF008D9647 /* Main.storyboard */; };
+		5391A0D026564ACF008D9647 /* QwertyTAP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0CE26564ACF008D9647 /* QwertyTAP.xcdatamodeld */; };
+		5391A0D226564ADE008D9647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5391A0D126564ADE008D9647 /* Assets.xcassets */; };
+		5391A0D526564ADE008D9647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391A0D326564ADE008D9647 /* LaunchScreen.storyboard */; };
+		5391A0DE26564B05008D9647 /* IndexClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0DD26564B05008D9647 /* IndexClassifier.swift */; };
+		5391A0E226564D9C008D9647 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0E126564D9C008D9647 /* Layout.swift */; };
+		5391A0E526564DE5008D9647 /* LettersSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0E426564DE5008D9647 /* LettersSet.swift */; };
+		5391A0E7265651D1008D9647 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5391A0E6265651D1008D9647 /* Colors.xcassets */; };
+		5391A0EA265652DB008D9647 /* SetColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0E9265652DB008D9647 /* SetColors.swift */; };
+		5391A0EE26565383008D9647 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5391A0ED26565383008D9647 /* Keyboard.xib */; };
+		5391A0F026565394008D9647 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0EF26565394008D9647 /* Keyboard.swift */; };
+		5391A0F3265653AC008D9647 /* UIView+loadViewFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0F2265653AC008D9647 /* UIView+loadViewFromNib.swift */; };
+		5391A0F7265A5A8D008D9647 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0F6265A5A8D008D9647 /* Key.swift */; };
+		5391A0FB265A73DF008D9647 /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0FA265A73DF008D9647 /* DeviceSize.swift */; };
+		5391A0FE265A769F008D9647 /* Hands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A0FD265A769F008D9647 /* Hands.swift */; };
+		5391A100265A76A8008D9647 /* Hands.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5391A0FF265A76A8008D9647 /* Hands.xib */; };
+		5391A102265A79DD008D9647 /* Hand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5391A101265A79DD008D9647 /* Hand.xib */; };
+		5391A104265A79F7008D9647 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A103265A79F7008D9647 /* Hand.swift */; };
+		5391A109265B8E73008D9647 /* TapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A108265B8E73008D9647 /* TapsController.swift */; };
+		5391A10B265B8F73008D9647 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A10A265B8F73008D9647 /* Orientation.swift */; };
+		5391A112265BCC49008D9647 /* HandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A111265BCC49008D9647 /* HandStatus.swift */; };
+		5391A115265CD8FC008D9647 /* TapcodeMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A114265CD8FC008D9647 /* TapcodeMapping.swift */; };
+		5391A119265CE686008D9647 /* CommonClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A118265CE686008D9647 /* CommonClassifier.swift */; };
+		5391A11C265CEDD0008D9647 /* word100k.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5391A11B265CEDD0008D9647 /* word100k.csv */; };
+		5391A11E265CEE0C008D9647 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A11D265CEE0C008D9647 /* CSVReader.swift */; };
+		5391A120265D0A0C008D9647 /* MainClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A11F265D0A0C008D9647 /* MainClassifier.swift */; };
+		5391A123265D1698008D9647 /* LegendHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A122265D1698008D9647 /* LegendHand.swift */; };
+		5391A125265D16B5008D9647 /* LegendHand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5391A124265D16B5008D9647 /* LegendHand.xib */; };
+		5391A127265D1924008D9647 /* LegendHandCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391A126265D1924008D9647 /* LegendHandCircleView.swift */; };
+		5391A12E265D369F008D9647 /* TAPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5391A12C265D3699008D9647 /* TAPKit.framework */; };
+		5391A12F265D369F008D9647 /* TAPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5391A12C265D3699008D9647 /* TAPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		53BF06A92680AC4E0021ACCC /* LegendTapCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF06A82680AC4E0021ACCC /* LegendTapCode.swift */; };
+		53BF06AB2680AC890021ACCC /* LegendTapCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53BF06AA2680AC890021ACCC /* LegendTapCode.xib */; };
+		53BF06AE268332EA0021ACCC /* TextViewCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF06AD268332EA0021ACCC /* TextViewCursor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5391A110265BA095008D9647 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5391A12F265D369F008D9647 /* TAPKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5328EED1267F6350003BE967 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		5328EED4267F795D003BE967 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		538E49052679FF92001D70E1 /* IndexAutocomplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexAutocomplete.swift; sourceTree = "<group>"; };
+		5391A0C226564ACF008D9647 /* QwertyTAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QwertyTAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391A0C526564ACF008D9647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5391A0C726564ACF008D9647 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5391A0C926564ACF008D9647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5391A0CC26564ACF008D9647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5391A0CF26564ACF008D9647 /* QwertyTAP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QwertyTAP.xcdatamodel; sourceTree = "<group>"; };
+		5391A0D126564ADE008D9647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5391A0D426564ADE008D9647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5391A0D626564ADE008D9647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5391A0DD26564B05008D9647 /* IndexClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexClassifier.swift; sourceTree = "<group>"; };
+		5391A0E126564D9C008D9647 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		5391A0E426564DE5008D9647 /* LettersSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersSet.swift; sourceTree = "<group>"; };
+		5391A0E6265651D1008D9647 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5391A0E9265652DB008D9647 /* SetColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColors.swift; sourceTree = "<group>"; };
+		5391A0ED26565383008D9647 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		5391A0EF26565394008D9647 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		5391A0F2265653AC008D9647 /* UIView+loadViewFromNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadViewFromNib.swift"; sourceTree = "<group>"; };
+		5391A0F6265A5A8D008D9647 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		5391A0FA265A73DF008D9647 /* DeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		5391A0FD265A769F008D9647 /* Hands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hands.swift; sourceTree = "<group>"; };
+		5391A0FF265A76A8008D9647 /* Hands.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hands.xib; sourceTree = "<group>"; };
+		5391A101265A79DD008D9647 /* Hand.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hand.xib; sourceTree = "<group>"; };
+		5391A103265A79F7008D9647 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		5391A108265B8E73008D9647 /* TapsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapsController.swift; sourceTree = "<group>"; };
+		5391A10A265B8F73008D9647 /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		5391A111265BCC49008D9647 /* HandStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandStatus.swift; sourceTree = "<group>"; };
+		5391A114265CD8FC008D9647 /* TapcodeMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapcodeMapping.swift; sourceTree = "<group>"; };
+		5391A118265CE686008D9647 /* CommonClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClassifier.swift; sourceTree = "<group>"; };
+		5391A11B265CEDD0008D9647 /* word100k.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word100k.csv; sourceTree = "<group>"; };
+		5391A11D265CEE0C008D9647 /* CSVReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
+		5391A11F265D0A0C008D9647 /* MainClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClassifier.swift; sourceTree = "<group>"; };
+		5391A122265D1698008D9647 /* LegendHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendHand.swift; sourceTree = "<group>"; };
+		5391A124265D16B5008D9647 /* LegendHand.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegendHand.xib; sourceTree = "<group>"; };
+		5391A126265D1924008D9647 /* LegendHandCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendHandCircleView.swift; sourceTree = "<group>"; };
+		5391A12C265D3699008D9647 /* TAPKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TAPKit.framework; sourceTree = "<group>"; };
+		53BF06A82680AC4E0021ACCC /* LegendTapCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendTapCode.swift; sourceTree = "<group>"; };
+		53BF06AA2680AC890021ACCC /* LegendTapCode.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegendTapCode.xib; sourceTree = "<group>"; };
+		53BF06AD268332EA0021ACCC /* TextViewCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCursor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5391A0BF26564ACF008D9647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5391A12E265D369F008D9647 /* TAPKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5328EED0267F61E5003BE967 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				5328EED1267F6350003BE967 /* DropDown.swift */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		5328EED3267F794D003BE967 /* V2 */ = {
+			isa = PBXGroup;
+			children = (
+				5328EED4267F795D003BE967 /* Circle.swift */,
+				53BF06A82680AC4E0021ACCC /* LegendTapCode.swift */,
+				53BF06AA2680AC890021ACCC /* LegendTapCode.xib */,
+			);
+			path = V2;
+			sourceTree = "<group>";
+		};
+		5391A0B926564ACF008D9647 = {
+			isa = PBXGroup;
+			children = (
+				5391A0C426564ACF008D9647 /* QwertyTAP */,
+				5391A0C326564ACF008D9647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5391A0C326564ACF008D9647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0C226564ACF008D9647 /* QwertyTAP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5391A0C426564ACF008D9647 /* QwertyTAP */ = {
+			isa = PBXGroup;
+			children = (
+				5391A12C265D3699008D9647 /* TAPKit.framework */,
+				5391A11A265CEDBE008D9647 /* CSV */,
+				5391A113265CD8F0008D9647 /* TapcodeMapping */,
+				5391A105265B8E12008D9647 /* Taps */,
+				5391A0F9265A73CA008D9647 /* Set */,
+				5391A0F8265A73BC008D9647 /* Common */,
+				5391A0F12656539D008D9647 /* Extensions */,
+				5391A0EB2656536A008D9647 /* UI */,
+				5391A0E8265652CA008D9647 /* Colors */,
+				5391A0E326564DA0008D9647 /* Layout */,
+				5391A0DC26564AEC008D9647 /* Classifying */,
+				5391A0C526564ACF008D9647 /* AppDelegate.swift */,
+				5391A0C726564ACF008D9647 /* SceneDelegate.swift */,
+				5391A0C926564ACF008D9647 /* ViewController.swift */,
+				5391A0CB26564ACF008D9647 /* Main.storyboard */,
+				5391A0E6265651D1008D9647 /* Colors.xcassets */,
+				5391A0D126564ADE008D9647 /* Assets.xcassets */,
+				5391A0D326564ADE008D9647 /* LaunchScreen.storyboard */,
+				5391A0D626564ADE008D9647 /* Info.plist */,
+				5391A0CE26564ACF008D9647 /* QwertyTAP.xcdatamodeld */,
+			);
+			path = QwertyTAP;
+			sourceTree = "<group>";
+		};
+		5391A0DC26564AEC008D9647 /* Classifying */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0DD26564B05008D9647 /* IndexClassifier.swift */,
+				5391A118265CE686008D9647 /* CommonClassifier.swift */,
+				5391A11F265D0A0C008D9647 /* MainClassifier.swift */,
+				538E49052679FF92001D70E1 /* IndexAutocomplete.swift */,
+			);
+			path = Classifying;
+			sourceTree = "<group>";
+		};
+		5391A0E326564DA0008D9647 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0E126564D9C008D9647 /* Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		5391A0E8265652CA008D9647 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0E9265652DB008D9647 /* SetColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		5391A0EB2656536A008D9647 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				53BF06AC268332DA0021ACCC /* TextViewCursor */,
+				5328EED0267F61E5003BE967 /* DropDown */,
+				5391A121265D1680008D9647 /* Legend */,
+				5391A0FC265A7691008D9647 /* Hands */,
+				5391A0EC26565370008D9647 /* Keyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5391A0EC26565370008D9647 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0ED26565383008D9647 /* Keyboard.xib */,
+				5391A0EF26565394008D9647 /* Keyboard.swift */,
+				5391A0F6265A5A8D008D9647 /* Key.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		5391A0F12656539D008D9647 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0F2265653AC008D9647 /* UIView+loadViewFromNib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5391A0F8265A73BC008D9647 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5391A10A265B8F73008D9647 /* Orientation.swift */,
+				5391A0FA265A73DF008D9647 /* DeviceSize.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5391A0F9265A73CA008D9647 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0E426564DE5008D9647 /* LettersSet.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		5391A0FC265A7691008D9647 /* Hands */ = {
+			isa = PBXGroup;
+			children = (
+				5391A0FD265A769F008D9647 /* Hands.swift */,
+				5391A0FF265A76A8008D9647 /* Hands.xib */,
+				5391A103265A79F7008D9647 /* Hand.swift */,
+				5391A101265A79DD008D9647 /* Hand.xib */,
+				5391A111265BCC49008D9647 /* HandStatus.swift */,
+			);
+			path = Hands;
+			sourceTree = "<group>";
+		};
+		5391A105265B8E12008D9647 /* Taps */ = {
+			isa = PBXGroup;
+			children = (
+				5391A108265B8E73008D9647 /* TapsController.swift */,
+			);
+			path = Taps;
+			sourceTree = "<group>";
+		};
+		5391A113265CD8F0008D9647 /* TapcodeMapping */ = {
+			isa = PBXGroup;
+			children = (
+				5391A114265CD8FC008D9647 /* TapcodeMapping.swift */,
+			);
+			path = TapcodeMapping;
+			sourceTree = "<group>";
+		};
+		5391A11A265CEDBE008D9647 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				5391A11B265CEDD0008D9647 /* word100k.csv */,
+				5391A11D265CEE0C008D9647 /* CSVReader.swift */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		5391A121265D1680008D9647 /* Legend */ = {
+			isa = PBXGroup;
+			children = (
+				5328EED3267F794D003BE967 /* V2 */,
+				5391A122265D1698008D9647 /* LegendHand.swift */,
+				5391A124265D16B5008D9647 /* LegendHand.xib */,
+				5391A126265D1924008D9647 /* LegendHandCircleView.swift */,
+			);
+			path = Legend;
+			sourceTree = "<group>";
+		};
+		53BF06AC268332DA0021ACCC /* TextViewCursor */ = {
+			isa = PBXGroup;
+			children = (
+				53BF06AD268332EA0021ACCC /* TextViewCursor.swift */,
+			);
+			path = TextViewCursor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5391A0C126564ACF008D9647 /* QwertyTAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5391A0D926564ADE008D9647 /* Build configuration list for PBXNativeTarget "QwertyTAP" */;
+			buildPhases = (
+				5391A0BE26564ACF008D9647 /* Sources */,
+				5391A0BF26564ACF008D9647 /* Frameworks */,
+				5391A0C026564ACF008D9647 /* Resources */,
+				5391A110265BA095008D9647 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QwertyTAP;
+			productName = QwertyTAP;
+			productReference = 5391A0C226564ACF008D9647 /* QwertyTAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5391A0BA26564ACF008D9647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5391A0C126564ACF008D9647 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 5391A0BD26564ACF008D9647 /* Build configuration list for PBXProject "QwertyTAP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5391A0B926564ACF008D9647;
+			productRefGroup = 5391A0C326564ACF008D9647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5391A0C126564ACF008D9647 /* QwertyTAP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5391A0C026564ACF008D9647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5391A100265A76A8008D9647 /* Hands.xib in Resources */,
+				53BF06AB2680AC890021ACCC /* LegendTapCode.xib in Resources */,
+				5391A0D526564ADE008D9647 /* LaunchScreen.storyboard in Resources */,
+				5391A0E7265651D1008D9647 /* Colors.xcassets in Resources */,
+				5391A0EE26565383008D9647 /* Keyboard.xib in Resources */,
+				5391A102265A79DD008D9647 /* Hand.xib in Resources */,
+				5391A0D226564ADE008D9647 /* Assets.xcassets in Resources */,
+				5391A11C265CEDD0008D9647 /* word100k.csv in Resources */,
+				5391A0CD26564ACF008D9647 /* Main.storyboard in Resources */,
+				5391A125265D16B5008D9647 /* LegendHand.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5391A0BE26564ACF008D9647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5391A0DE26564B05008D9647 /* IndexClassifier.swift in Sources */,
+				5391A0CA26564ACF008D9647 /* ViewController.swift in Sources */,
+				5391A0FB265A73DF008D9647 /* DeviceSize.swift in Sources */,
+				5391A115265CD8FC008D9647 /* TapcodeMapping.swift in Sources */,
+				53BF06A92680AC4E0021ACCC /* LegendTapCode.swift in Sources */,
+				5391A0FE265A769F008D9647 /* Hands.swift in Sources */,
+				5328EED2267F6350003BE967 /* DropDown.swift in Sources */,
+				5391A104265A79F7008D9647 /* Hand.swift in Sources */,
+				5391A0F7265A5A8D008D9647 /* Key.swift in Sources */,
+				5391A123265D1698008D9647 /* LegendHand.swift in Sources */,
+				5328EED5267F795D003BE967 /* Circle.swift in Sources */,
+				5391A0E526564DE5008D9647 /* LettersSet.swift in Sources */,
+				5391A119265CE686008D9647 /* CommonClassifier.swift in Sources */,
+				53BF06AE268332EA0021ACCC /* TextViewCursor.swift in Sources */,
+				5391A112265BCC49008D9647 /* HandStatus.swift in Sources */,
+				5391A0C626564ACF008D9647 /* AppDelegate.swift in Sources */,
+				5391A127265D1924008D9647 /* LegendHandCircleView.swift in Sources */,
+				5391A0F026565394008D9647 /* Keyboard.swift in Sources */,
+				5391A0E226564D9C008D9647 /* Layout.swift in Sources */,
+				5391A109265B8E73008D9647 /* TapsController.swift in Sources */,
+				5391A0C826564ACF008D9647 /* SceneDelegate.swift in Sources */,
+				5391A10B265B8F73008D9647 /* Orientation.swift in Sources */,
+				5391A0F3265653AC008D9647 /* UIView+loadViewFromNib.swift in Sources */,
+				5391A11E265CEE0C008D9647 /* CSVReader.swift in Sources */,
+				538E49062679FF92001D70E1 /* IndexAutocomplete.swift in Sources */,
+				5391A120265D0A0C008D9647 /* MainClassifier.swift in Sources */,
+				5391A0D026564ACF008D9647 /* QwertyTAP.xcdatamodeld in Sources */,
+				5391A0EA265652DB008D9647 /* SetColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5391A0CB26564ACF008D9647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5391A0CC26564ACF008D9647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5391A0D326564ADE008D9647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5391A0D426564ADE008D9647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5391A0D726564ADE008D9647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5391A0D826564ADE008D9647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5391A0DA26564ADE008D9647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QwertyTAP",
+				);
+				INFOPLIST_FILE = QwertyTAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5391A0DB26564ADE008D9647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QwertyTAP",
+				);
+				INFOPLIST_FILE = QwertyTAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5391A0BD26564ACF008D9647 /* Build configuration list for PBXProject "QwertyTAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5391A0D726564ADE008D9647 /* Debug */,
+				5391A0D826564ADE008D9647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5391A0D926564ADE008D9647 /* Build configuration list for PBXNativeTarget "QwertyTAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5391A0DA26564ADE008D9647 /* Debug */,
+				5391A0DB26564ADE008D9647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5391A0CE26564ACF008D9647 /* QwertyTAP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5391A0CF26564ACF008D9647 /* QwertyTAP.xcdatamodel */,
+			);
+			currentVersion = 5391A0CF26564ACF008D9647 /* QwertyTAP.xcdatamodel */;
+			path = QwertyTAP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5391A0BA26564ACF008D9647 /* Project object */;
+}
